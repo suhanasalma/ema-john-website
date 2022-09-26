@@ -1,0 +1,27 @@
+
+
+.nav-bar{
+   background-color: #1C2B35;
+   height: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 80px;
+}
+.nav-bar img{
+   cursor: pointer;
+}
+.nav-bar a{
+   color: white;
+   text-decoration: none;
+   font-size: 1rem;
+   margin-left: 1.5rem;
+   padding: .5rem;
+}
+
+.nav-bar a:hover{
+   background-color: #FF9900;
+   padding: .5rem;
+   color: black;
+   border-radius: 5px;
+}
